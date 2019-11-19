@@ -73,7 +73,9 @@ i.fa{
 }
 
 @media (max-width: 1199px) and (min-width: 1024px) { 
-
+    .container-fluid.section4 {
+        height:0px!important;
+    }
     .form {
         padding-top: 31px!important;
         padding-left: 0!important;
@@ -610,7 +612,10 @@ i.fa{
         }
 /* Hajra2 */
 @media (max-width: 684px) and (min-width: 568px) {
-   
+    img.secondImg {
+        width: 125px;
+        height: 55px;
+    }
     .section4 {
         height: 240vh !important;
 
@@ -752,6 +757,9 @@ i.fa{
 /* Rida */
 @media (max-width: 767px) and (min-width: 685px) {
 
+
+
+    
     body {
         width: fit-content!important;
 
@@ -780,7 +788,7 @@ i.fa{
     }
 
     .headerLogo{
-        width: 45%!important;
+        width: 25%!important;
     }
     .content {
 
@@ -979,6 +987,14 @@ i.fa{
  }
         /* Shohaib second */
         @media (max-width: 479px) and (min-width: 320px) { 
+            p.footer-p1 {
+                font-size: 12px;
+            }
+            .footer-div1 a {
+                
+                font-size: 10px!important;
+                
+            }
             .chat1-inside-data {
                 width: 295px!important;
                 height: 140px!important;
@@ -1010,8 +1026,64 @@ i.fa{
             }
             }
             @media (max-width: 567px) and (min-width: 480px) {
+                p.footer-p1 {
+                    font-size: 12px;
+                }
+                .footer-div1 a {
+                    
+                    font-size: 10px!important;
+                    
+                }
+
+                .chat1-inside-data {
+                    width: 295px!important;
+                    height: 140px!important;
+                }
+                p.p {
+                    
+                    font-size: 13px!important;
+                
+                }
+                .chat-input-data {
+                    width: 351px!important;
+                    border-radius: 31px!important;
+                }
+                .input {
+                    width: 184px!important;
+                    height: 54px!important;
+                    margin-top: -20px!important;
+                    font-size: 15px!important;
+                }
+                .input {
+                    width: 191px!important;
+                }      
+                
+                .button {
+                    height: 47px!important;
+                }
+                .chat1-inside-data {
+                    padding-left: 20px!important;
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                /* Robo Chat End */
                 .container-fluid.section4 {
-                    height: 250vh!important;
+                    height: 180vh!important;
                 }
                 img.secondImg {
                     width: 124px;
