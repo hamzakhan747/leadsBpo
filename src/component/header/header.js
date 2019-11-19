@@ -10,7 +10,7 @@ export default ()=>{
                 <div className="row section1-row d-flex justify-content-around">
 
                     <img className="headerLogo" src={img} width="380px" height="100px" alt="logo" />
-                    <div className="d-flex justify-content-between">
+                    <div className="d-flex justify-content-between header">
                     <div className="d-flex flex-column align-items-end content">
                         <div className="section1-paragraph">
                             <h4 className="paragragh1-section1">Contact for Support: </h4>

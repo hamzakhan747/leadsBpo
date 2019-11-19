@@ -151,7 +151,7 @@ return (
 
         <div className="row d-flex mt-5 hide2" >
             
-            <div className="box1" onClick={() => next()}>
+            <div className="box1 bb" onClick={() => next()}>
                     <p><b><a >England</a></b></p>
             </div>
 

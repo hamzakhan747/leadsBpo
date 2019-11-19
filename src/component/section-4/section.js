@@ -56,7 +56,7 @@ export default ()=>{
 
                     <div className="d-flex pt-2 justify-content-between pb-2 border5 section5-heading-all">
                         <h6 className="pt-2 ml-3">Debt written off</h6>    
-                        <span className="img-section6-circle "><img style={{marginLeft:"42px",marginBottom:"13px"}}  src={img1} width="100px" alt=""/>
+                        <span className="img-section6-circle "><img className="secondImg" style={{marginLeft:"42px",marginBottom:"13px"}}  src={img1} width="100px" alt=""/>
                            <h5 className="mr-3" style={{marginLeft:"50px",marginTop:"-50px"}}><b>£ 11,358</b></h5>
                         </span> 
                     </div>

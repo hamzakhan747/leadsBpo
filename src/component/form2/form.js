@@ -42,12 +42,12 @@ export default class Form extends Component{
 
         return(
             <div className="container-fluid form-container">
-        <div className="container">
+        <div className="container form-contactUs">
             <h1 className="contact">Contact Page</h1>
             <div className="line">
-            <span>__________________</span>
+            <span className="line-below-contact">__________________</span>
             </div>
-            <h1>Contact Us</h1>
+            <h1 className="contactus">Contact Us</h1>
             <div className="column from-body">
                 <div className="form-data ">
                     <form onSubmit={this.submitHandler} className="form">
@@ -58,7 +58,7 @@ export default class Form extends Component{
                     <input type="text" name="firstname" className="form-control "
                      value={firstName}
                      onChange={this.changeHandler} />
-                     <span className="span">First</span>
+                     <span className="span-name">First</span>
                      </div>
                      <div className="col-md-6 Last1">
                      
@@ -67,12 +67,12 @@ export default class Form extends Component{
                     <input type="text" name="lastname" className="form-control second"
                      value={lastName}
                     onChange={this.changeHandler}  />
-                    <span className="span">Last</span>
+                    <span className="span-name">Last</span>
                     
                     
                     </div>
                     </div>
-                    <label className="label">Phone*</label>
+                    <label className="label label-phone">Phone*</label>
                     <input type="phone" name="phone" className="phone form-control"
                     value={phone}
                     onChange={this.changeHandler}

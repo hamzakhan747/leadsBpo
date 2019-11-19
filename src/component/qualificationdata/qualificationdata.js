@@ -86,7 +86,7 @@ export default () => {
             takeInput: false
         },
         {
-            question: "My email is",
+            question: "My Email is.........",
             takeInput: true,
             value: "",
             name: "email"
